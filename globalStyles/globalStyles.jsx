@@ -14,4 +14,4 @@ body {
     background-color: ${(props) => props.theme.background}
 }
 
-`
+`;

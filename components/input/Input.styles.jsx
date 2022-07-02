@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 export const InputContainer = styled.div``;
 
-export const StyledLabel = styled.p``;
+export const StyledLabel = styled.p`
+padding: 5px;
+`;
 
 export const StyledInput = styled.input`
   background-color: ${(props) => props.theme.inputBackground};
-  padding: 15px 80px;
+  padding: 15px 10px;
   cursor: pointer;
   border-radius: 5px;
   border: 1px solid
@@ -34,8 +36,7 @@ export const ErrorMessage = {
   "string.empty": "O campo é obrigatório",
   "string.email": "Digite um email valído",
   "string.min": "Sua senha deve ter no minimo 6 caracteres",
-  "duplicated": "já existe uma conta com esse valor.",
+  duplicated: "já existe uma conta com esse valor.",
   "password incorrect": "senha invalida.",
-  "userOrEmail": "usuario ou email invalido."
-
+  userOrEmail: "usuario ou email invalido.",
 };
