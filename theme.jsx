@@ -1,6 +1,6 @@
 const theme = {
     primary: "#E97579",
-    primaryHover: "#7029A8",
+    primaryHover: "#B93129",
     inputBackground: "#F5F5F5",
     inputBorder: "#E6E6E6",
     background: "rgba(67,65,63)",

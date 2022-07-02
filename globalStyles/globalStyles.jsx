@@ -14,4 +14,16 @@ body {
     background-color: ${(props) => props.theme.background}
 }
 
+a {
+    color: ${(props) => props.theme.primary};
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: ${(props) => props.theme.primaryHover};
+    
+}
+
 `;

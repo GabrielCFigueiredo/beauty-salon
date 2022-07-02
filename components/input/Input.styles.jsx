@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InputContainer = styled.div``;
 
 export const StyledLabel = styled.p`
-padding: 5px;
+  padding: 5px;
 `;
 
 export const StyledInput = styled.input`
