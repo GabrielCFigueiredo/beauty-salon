@@ -1,11 +1,9 @@
-const express = require("express")
-const app = express()
-const morgan = require("morgan")
-app.use(morgan("dev"))
+const express = require("express");
+const app = express();
+const morgan = require("morgan");
+app.use(morgan("dev"));
 
-app.set("port", 8000)
+app.set("port", 8000);
 app.listen(app.get("port"), () => {
-console.log(`ESCUTANDO NA PORTA ${app.get("port")}`);
-})
-
-
+  console.log(`ESCUTANDO NA PORTA ${app.get("port")}`);
+});
